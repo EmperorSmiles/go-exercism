@@ -2,7 +2,7 @@ package gross
 
 // Units stores the Gross Store unit measurements.
 func Units() map[string]int {
-	return map[string]int{
+	units := map[string]int{
 		"quarter_of_a_dozen":	3,
 		"half_of_a_dozen":	6, 
 		"dozen":	12,
@@ -10,16 +10,18 @@ func Units() map[string]int {
 		"gross":	144,
 		"great_gross":	1728,
 	}
+	return units
 }
 
 // NewBill creates a new bill.
 func NewBill() map[string]int {
-	return map[string]int{}
+	bill := map[string]int{}
+	return bill
 }
 
 // AddItem adds an item to customer bill.
 func AddItem(bill, units map[string]int, item, unit string) bool {
-	panic("Please implement the AddItem() function")
+	panic(":")
 }
 
 // RemoveItem removes an item from customer bill.
