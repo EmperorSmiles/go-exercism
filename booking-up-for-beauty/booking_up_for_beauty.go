@@ -23,7 +23,6 @@ func Schedule(date string) time.Time {
 	return time.Time{}
 }
 
-
 // HasPassed returns whether a date has passed.
 func HasPassed(date string) bool {
 	return Schedule(date).Before(time.Now())
@@ -38,7 +37,6 @@ func IsAfternoonAppointment(date string) bool {
 func Description(date string) string {
 	return fmt.Sprintf("You have an appointment on %v", Schedule(date).Format("Monday, January 2, 2006, at 15:04."))
 }
-
 
 // AnniversaryDate returns a Time with this year's anniversary.
 func AnniversaryDate() time.Time {
