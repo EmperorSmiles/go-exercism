@@ -28,7 +28,7 @@ func AddItem(bill, units map[string]int, item, unit string) bool {
 	if currentQty, exists := bill[item]; exists {
         bill[item] = currentQty + value
     } else {
-        bill[item] = value
+        bill[item] = value 
     }
     return true
 	
