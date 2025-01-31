@@ -32,18 +32,6 @@ func CountInRank(cb Chessboard, rank int) int {
 		}
 	}
 	return count
-	
-	// if rank < 1 || rank > 8 {
-	// 	return 0
-	// }
-
-	// count := 0
-	// for _, fileData := range cb {
-	// 	if fileData[rank-1] { 
-    //         count++
-    //     }
-	// }
-	// return count
 }
 
 // CountAll should count how many squares are present in the chessboard.
