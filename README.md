@@ -1,4 +1,4 @@
-# Go-Exercism Learn Mode Solution
+# Go-Exercism Learn Mode Solutions
  **Hey there, fellow Gophers 👋🏻**
 
  ![go-learn](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GO_LEARN.png)
