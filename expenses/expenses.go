@@ -64,7 +64,7 @@ func TotalByPeriod(in []Record, p DaysPeriod) float64 {
 // to the given category, regardless of period of time.
 func CategoryExpenses(in []Record, p DaysPeriod, c string) (float64, error) {
 	cExpense := Filter(in, ByCategory(c))
-
+	
 	if len(cExpense) == 0 {
 		return 0, fmt.Errorf("unknown category %v", c)
 	}
