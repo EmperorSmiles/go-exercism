@@ -7,7 +7,7 @@
 
  I decided to solve and share these solutions with fellow Gophers who are interested in learning Go.
 
- Please note: There are usually more than one way to solve the problems and you can always DRY up your code
+ > Please note: There are usually more than one way to solve the problems and you can always DRY up your code
 
  ### 🚀 Contributions Welcome
 Feel free to suggest improvements, share alternative solutions, or ask questions!
